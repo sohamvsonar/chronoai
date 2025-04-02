@@ -10,7 +10,7 @@ times = [duration_without, duration_with]
 
 # --- Create the bar chart ---
 plt.figure(figsize=(8, 6))
-bars = plt.bar(labels, times, color=['skyblue', 'lightgreen'], edgecolor='black')
+bars = plt.bar(labels, times, color=['tomato', 'gold'], edgecolor='black')
 
 plt.xlabel('Logging Mode', fontsize=14)
 plt.ylabel('Duration (seconds)', fontsize=14)
