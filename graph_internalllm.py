@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
 # --- Sample benchmark results (in seconds) ---
-duration_without = 229.57   # e.g., benchmark without logging
-duration_with = 186.86      # e.g., benchmark with logging
+duration_without = 513.82   # e.g., benchmark without logging
+duration_with = 541.92      # e.g., benchmark with logging
 
 # --- Data for the graph ---
 labels = ['Without ChronoLog Logging', 'With ChronoLog Logging']
