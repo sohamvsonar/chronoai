@@ -12,6 +12,10 @@ This repository contains Python inference files and benchmarking code that demon
   - **External LLM:** Utilizes ChatGPT 3.5 Turbo via OpenAI API for external inference.
 - **Scalable Architecture:** Employs ChronoLog’s distributed logging with physical time stamps for accurate event ordering.
 - **Benchmarking:** Provides scripts to compare performance with and without ChronoLog logging.
+- **Retrieve Interaction:**  
+  - Extracts only the `record` fields from a chronicle/story   
+  - Accepts raw nanosecond timestamps or human-friendly dates (`yesterday`, `2025-04-30`, etc.).  
+  - Writes results to a timestamped text file and returns its path.
 - **Open-Source:** Explore and contribute to the project; see details below.
 
 ## Prerequisites
