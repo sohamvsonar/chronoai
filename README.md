@@ -34,7 +34,16 @@ This repository contains Python inference files and benchmarking code that demon
    git clone https://github.com/sohamvsonar/chronoai.git
    cd chronoai
 
-2. To be updated.
+2. For ChronoLog deployment, refer to [First Steps with ChronoLog](https://github.com/grc-iit/ChronoLog/wiki/Tutorial-1:-First-Steps-with-ChronoLog).
+
+3. Ensure Python bindings by adding the following to your shell configuration (e.g., `.bashrc` or `.zshrc`):
+
+```bash
+export LD_LIBRARY_PATH=$HOME/chronolog/Debug/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=$HOME/chronolog/Debug/lib:$PYTHONPATH
+
+ln -s /path/to/chronolog/lib/py_chronolog_client.[python-version-linux-version].so /path/to/chronolog/lib/py_chronolog_client.so
+```
 
 ## Future Work
 
